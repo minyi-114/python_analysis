@@ -8,7 +8,7 @@ def main():
                 '營業收入-上月營收':'上月營收',
                 '營業收入-當月營收':'當月營收'
                 })
-        df3.to_csv('上市公司資料整理.csv',encoding='utf-8')
+        df3.to_csv('上市公司資料整理.csv',encoding='utf-8-sig')
         df3.to_excel('上市公司資料整理.xlsx')
         print("存檔完成")
 
